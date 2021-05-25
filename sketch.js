@@ -50,11 +50,10 @@ function draw() {
   drawSprites();
  
 }
-
 function keyPressed(){
 	if(keyCode===UP_ARROW){
      
-		Matter.Body.applyForce(paper.body,paper.body.position,{X:-85,Y:85});
+		Matter.Body.applyForce(paper.body,paper.body.position,{x:17,y:-17});
 	}
 }
 
